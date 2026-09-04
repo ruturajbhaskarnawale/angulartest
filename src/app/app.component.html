@@ -1,0 +1,29 @@
+<main class="container">
+  <div class="card">
+    <div class="badge">Framework 01 / 14</div>
+    <h1>{{ title }}</h1>
+    <p class="subtitle">Canonical Angular project structure with Standalone Component architecture.</p>
+    
+    <div class="meta-grid">
+      <div class="meta-item">
+        <span class="label">Status:</span>
+        <span class="value success">{{ status }}</span>
+      </div>
+      <div class="meta-item">
+        <span class="label">Platform Architecture:</span>
+        <span class="value">{{ frameworkVersion }}</span>
+      </div>
+      <div class="meta-item">
+        <span class="label">Active RASP Detectors:</span>
+        <span class="value highlight">{{ detectorsReady }}</span>
+      </div>
+    </div>
+
+    <!-- SecureShield Angular SDK Injection Anchor Point -->
+    <div class="secureshield-status-box">
+      <h3>🛡️ SecureShield Protection Status</h3>
+      <p>SecureShield SDK is ready for integration via Angular APP_INITIALIZER or Standalone Service.</p>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</main>

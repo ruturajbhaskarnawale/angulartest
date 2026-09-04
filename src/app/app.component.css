@@ -1,0 +1,65 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+.badge {
+  display: inline-block;
+  background: #dd0031;
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+h1 {
+  color: #f0f6fc;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.subtitle {
+  color: #8b949e;
+  margin-bottom: 1.5rem;
+}
+.meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.meta-item {
+  background: #0d1117;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #21262d;
+}
+.meta-item .label {
+  display: block;
+  font-size: 0.8rem;
+  color: #8b949e;
+}
+.meta-item .value {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f0f6fc;
+}
+.value.success { color: #3fb950; }
+.value.highlight { color: #58a6ff; }
+.secureshield-status-box {
+  background: rgba(56, 139, 253, 0.1);
+  border: 1px solid rgba(56, 139, 253, 0.4);
+  padding: 1rem;
+  border-radius: 8px;
+}
+.secureshield-status-box h3 {
+  color: #58a6ff;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
